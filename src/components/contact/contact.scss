@@ -85,6 +85,7 @@
   color: white;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+  overflow-y: hidden;
 
   @include mobile {
     padding: 10px;
@@ -101,7 +102,7 @@ button {
   cursor: pointer;
   font-weight: 500;
   transition: box-shadow 0.3s ease; 
-
+  overflow-y: hidden;
   @include mobile {
     padding: 10px;
   }
