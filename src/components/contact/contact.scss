@@ -114,10 +114,9 @@ button {
 
 .svg1{
   @include mobile {
-    padding-right: 40px;
-    justify-content: center;
-    padding-bottom: 50px;
-    padding-left: 40px;
+  
+  padding-bottom: 80px;
+  padding-right: 80px;
   }
 
 }
