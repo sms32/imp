@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   gap: 50px;
+  overflow-y: hidden; /* Prevent vertical scrolling on the main container */
 
   @include mobile {
     width: 100%;
@@ -14,39 +15,11 @@
     flex-direction: column;
   }
 
-  .textContainer {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-
-    @include mobile {
-      gap: 20px;
-      text-align: center;
-      align-items: center;
-      margin-top: 70px;
-    }
-
-    h1 {
-      font-size: 100px;
-      line-height: 88px;
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Adjust the values as needed */
-    
-      @include mobile {
-        font-size: 36px;
-        text-shadow: 0 0 5px rgba(255, 255, 255, 0.8); /* Adjust the values for mobile */
-      }
-    }
-    
-    span {
-      font-weight: 300;
-    }
-  }
-
   .formContainer {
     flex: 1;
     position: relative;
-    
+    overflow-y: auto; /* Enable scrolling inside the form container on mobile */
+
     @include mobile {
       padding: 50px;
       width: 100%;
@@ -72,7 +45,7 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
-overflow: hidden;
+
    
 
       input,
@@ -83,13 +56,11 @@ overflow: hidden;
   color: white;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
-  overflow: hidden;
 
   @include mobile {
     padding: 10px;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.8); 
     position: relative;
-    overflow:hidden;
   }
 }
 
@@ -101,11 +72,9 @@ button {
   cursor: pointer;
   font-weight: 500;
   transition: box-shadow 0.3s ease; 
-  overflow: hidden;
 
   @include mobile {
     padding: 10px;
-    overflow: hidden;
   }
 
   &:hover {
