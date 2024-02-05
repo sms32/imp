@@ -67,20 +67,30 @@
     position: absolute;
     top: 0;
     right: 0;
-
+  
     @include mobile {
       height: 50%;
       width: 100%;
       top: unset;
       bottom: 0;
+      max-width: 100%;
+      padding-left: 50px;
+      padding-bottom: 20px;
     }
+  
 
-    img{
+    
+    img {
       width: 100%;
+      max-width: 100%; /* Ensure the image doesn't exceed its container */
       height: 100%;
       object-fit: cover;
+      
+
     }
+
   }
+  
 
   .slidingTextContainer {
     position: absolute;

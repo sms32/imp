@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "./SkillsAndExperience.css";
+import "./SkillsAndExperience.scss";
 const ProgressBar = ({ title, percent }) => {
   return (
     <div className="progress-bar">

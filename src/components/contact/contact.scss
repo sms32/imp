@@ -59,6 +59,12 @@
       margin: auto;
       z-index: -1;
       filter: drop-shadow(0 0 10px rgba(242, 235, 244, 0.8));
+
+      // @include mobile {
+      //   padding-right: 70px;
+        
+      // }
+    
     }
     
 
@@ -104,4 +110,14 @@ button {
 
     }
   }
+}
+
+.svg1{
+  @include mobile {
+    padding-right: 60px;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+  }
+
 }

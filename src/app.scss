@@ -96,6 +96,12 @@ section {
   text-shadow: 0 0 20px rgba(211, 2, 226, 0.8);
   animation: glow 1.5s infinite alternate;
 margin-top: 30px;
+
+@include mobile {
+  font-size: 55px; 
+
+}
+
   @keyframes glow {
     0% {
       box-shadow: 0 0 10px rgb(177, 5, 177);
