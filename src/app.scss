@@ -70,6 +70,9 @@ section {
   // width: 100vw;
   scroll-snap-align: center;
   overflow: hidden;
+  @media mobile {
+    height: 95vh;
+  }
 }
 
 @mixin mobile {
