@@ -75,10 +75,10 @@
       flex-direction: column;
       gap: 20px;
       scroll-behavior: auto;
-      position: fixed;
-      // top: 50%; /* Adjust as needed */
-      // left: 50%; /* Adjust as needed */
-      transform: translate(-50%, -50%);
+      // position: fixed;
+      // // top: 50%; /* Adjust as needed */
+      // // left: 50%; /* Adjust as needed */
+      // transform: translate(-50%, -50%);
 
       input,
       textarea  {
@@ -93,7 +93,7 @@
   @include mobile {
     padding: 10px;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.8); 
-    position: relative;
+    position: fixed;
   }
 }
 
