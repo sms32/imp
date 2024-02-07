@@ -152,4 +152,9 @@ button {
 
 }
 
+.item{
+  @include mobile {
+    display: none;
+    }
+}
 
