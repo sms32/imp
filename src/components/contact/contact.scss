@@ -14,12 +14,12 @@
     padding: 10px;
     flex-direction: column;
 
-    display: flex;
+  //   display: flex;
 
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* Ensure the contact section covers the entire viewport height */
-  overflow: auto; 
+  // align-items: center;
+  // justify-content: center;
+  // height: 100vh; /* Ensure the contact section covers the entire viewport height */
+  // overflow: auto; 
   }
 
   .textContainer {
@@ -59,12 +59,12 @@
     @include mobile {
       padding: 50px;
       width: 100%;
-      position: fixed; /* Fix the form container */
-  top: 50%; /* Position it at the vertical center of the viewport */
-  left: 50%; /* Position it at the horizontal center of the viewport */
-  transform: translate(-50%, -50%); /* Adjust for center alignment */
+  //     position: fixed; /* Fix the form container */
+  // top: 50%; /* Position it at the vertical center of the viewport */
+  // left: 50%; /* Position it at the horizontal center of the viewport */
+  // transform: translate(-50%, -50%); /* Adjust for center alignment */
 
-  padding: 20px;
+  // padding: 20px;
  
     }
 
