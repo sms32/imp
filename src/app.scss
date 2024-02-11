@@ -30,6 +30,13 @@ section {
   
 }
 
+@media screen and (max-width: 767px) {
+  section {
+    margin-top: 20px; /* Adjust the margin as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+}
+
 @mixin mobile {
   @media (max-width: 738px) {
     @content;
