@@ -102,3 +102,21 @@
     font-weight: bold;
   }
 }
+
+#click{
+  display: none;
+
+  @include mobile {
+   display: inline-block;
+  }
+
+}
+
+#space{
+  padding-bottom:250px ;
+
+  @include mobile {
+    padding-bottom: 10px;
+   }
+
+}

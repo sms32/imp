@@ -29,14 +29,17 @@ const Single = ({ item }) => {
             <img src={item.img} alt="" />
           </div>
           <motion.div className="textContainer" style={{y}}>
-            <h2>{item.title}</h2>
+            <h2 >{item.title}</h2>
             <p>{item.desc}</p>
-            <button>
-               <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <button >
+              <a href={item.link} target="_blank" 
+               re l="noopener noreferrer">
                  VIEW
                </a>
              </button>
+             
           </motion.div>
+        
         </div>
       </div>
     </section>

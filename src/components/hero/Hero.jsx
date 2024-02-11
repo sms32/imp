@@ -56,14 +56,15 @@ const Hero = () => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}><b>MICHAEL</b></motion.h2>
-          <motion.h1 variants={textVariants}>
+          <motion.h1 variants={textVariants} id="space">
             Web Developer and Designer 
           </motion.h1>
+          {/* <br /><br /><br /><br /><br /><br /> */}
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}  onClick={scrollToContact}>
+            <motion.button variants={textVariants}  onClick={scrollToContact} id="click">
             <a href="#Project">See the Latest Works</a> 
             </motion.button>
-            <motion.button variants={textVariants} onClick={scrollToContact}>
+            <motion.button variants={textVariants} onClick={scrollToContact} id="click">
             <a href="#Contact">CONTACT</a>
           </motion.button>
           </motion.div>
@@ -72,6 +73,7 @@ const Hero = () => {
             animate="scrollButton"
             src="/scroll.png"
             alt=""
+            id="click"
           />
         </motion.div>
       </div>
