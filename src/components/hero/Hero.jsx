@@ -67,14 +67,14 @@ const Hero = () => {
             <motion.button variants={textVariants} onClick={scrollToContact} id="click">
             <a href="#Contact">CONTACT</a>
           </motion.button>
-          </motion.div>
-          <motion.img
+          </motion.div><a href="#SKILLS"><motion.img
             variants={textVariants}
             animate="scrollButton"
             src="/scroll.png"
             alt=""
             id="click"
-          />
+          /></a>
+          
         </motion.div>
       </div>
       <motion.div
